@@ -1,0 +1,34 @@
+# AsianCharacter
+
+This gem provides image for Chinese characters 
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'asian_character'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install asian_character_image
+
+## Usage
+
+    require 'asian_character_image'
+
+    word = AsianCharacter::Word.new('0000e006','24') # the first param is the unicode of this character, and the second param is the size of this chracter
+
+    #to get character image url
+    url = word.image_url #return http://chinese.biodinfo.org/chinesefiles/PicDB/0000e0/24/0000e006.jpg
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
