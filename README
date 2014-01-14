@@ -6,7 +6,7 @@ This gem provides image for Chinese characters
 
 Add this line to your application's Gemfile:
 
-    gem 'asian_character'
+    gem 'asian_character_image'
 
 And then execute:
 
